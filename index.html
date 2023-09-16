@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Buttons</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 70px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="button" style="background-color:blue" onclick="window.location.href='index1.html';">Air Quality Monitoring</button>
+        <button class="button" style="background-color: rgb(230, 89, 24)" onclick="window.location.href='index2.html';">Water Quality Monitoring</button>
+    </div>
+</body>
+</html>
